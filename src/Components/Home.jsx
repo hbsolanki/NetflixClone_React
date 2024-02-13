@@ -48,7 +48,7 @@ const Home = () => {
     };
 
     fetchData();
-  });
+  }, []);
   return (
     <section className="home">
       <div
